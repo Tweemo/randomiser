@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.pairs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pairCards {
+  background-color: #f5f5f5;
+  padding: 4rem;
+  border: 1px solid black;
+  margin: 1rem;
+  border-radius: 20px;
+  font-size: 1.5rem;
+}
+
+.resetButton {
+  display: flex;
+  background-color: #f5f5f5;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 10rem;
+  height: 5rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px 0px black;
+}
+
+.nameButtonContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90rem;
+  height: 50rem;
+  background-color: bisque;
+  border-radius: 20px;
+  margin: 5rem;
+  align-items: center;
+  gap: 5rem;
+}
