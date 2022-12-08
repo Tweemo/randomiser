@@ -1,41 +1,19 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  background-color: bisque;
-  height: 100vh;
-  align-items: center;
-}
-
 .pairs {
   display: flex;
   background-color: #f5f5f5;
   border: 2px solid black;
-  border-radius: 20px;
   font-size: 1.5rem;
-  padding: 0 2rem;
+  border-radius: 1rem;
   margin-top: 2rem;
   justify-content: center;
   align-items: center;
 }
 
 .resetButton {
-  display: flex;
-  background-color: #f5f5f5;
   border: 1px solid black;
   border-radius: 20px;
-  width: 10rem;
-  height: 5rem;
   margin-top: 0.5rem;
   font-size: 2rem;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 10px 0px black;
-}
-
-.cardContainer {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
 }
