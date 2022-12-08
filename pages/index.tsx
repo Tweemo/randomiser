@@ -6,7 +6,7 @@ import { Button, SimpleGrid, VStack } from '@chakra-ui/react'
 
 export default function Home() {
   
-  const staff = [ 'Craig', 'Tim L', 'Tim P', 'Zaid', 'Mike', 'Jai', 'Andrew', 'Emily', 'Lance', 'Tariq', 'Phil']
+  const staff = ['Craig', 'Tim L', 'Zaid', 'Mike', 'Jai', 'Emily', 'Tariq']
   const [pairs, setPairs] = useState<any>()
   
   useEffect(() => {
@@ -15,10 +15,12 @@ export default function Home() {
 
   return (
       <VStack bg='bisque' h='100vh'>
-        <Button className={styles.resetButton} size='lg' colorScheme='teal' onClick={() => {
-          setPairs(splitArray(shuffle(staff)))
-          console.log([pairs])
-        }}>
+        <Button 
+          className={styles.resetButton} 
+          size='lg' 
+          colorScheme='teal' 
+          onClick={() => {setPairs(splitArray(shuffle(staff)))}}
+          >
           Mix&apos;em
         </Button>
         <SimpleGrid columns={3} gap={'4rem'}>
